@@ -1,0 +1,737 @@
+------------------------------------------
+M.U.G.E.N ver 1.00 (2011.01.18) status log
+------------------------------------------
+Parsing command line...
+Command line: C:\Users\Admin\Downloads\HyperDBZWickedAmbition 6.0a\HyperDBZWickedAmbition\Hyper DBZ 6.0a\Hyper DBZ.exe
+Parse command line OK
+Initializing...
+Allocating game variables
+Reading configuration file...OK
+Initializing timer...performance timer enabled...frequency 10000000...OK
+Initializing keyboard...configuring...OK
+Initializing input engine...OK
+Initializing sound...Using SDL audio driver: dsound
+Requesting mixer parameters (44100, 16, 2, 2048)...
+Opened mixer with parameters (44100, 16, 2, 2048)...
+OK
+Initializing BGM...BGMThreadInit returned 0
+OK
+Initializing graphics...gameCoord 640x480...render mode 2_4...trying 640x480x16 mode 0x0...success...OK
+Setting callbacks...OK
+Initializing font...OK
+Initializing game variables...OK
+Loading system fonts...OK
+Loading options...
+Initializing pads...failed
+Reinitializing input engine...OK
+Remapping keys...OK
+Reinitializing input engine...OK
+Options loaded OK
+Loading system...
+  Load system file system.def...OK
+  Load system spr...OK
+  Load system snd...OK
+  Load system fonts...OK
+  Load system anim...OK
+  Load [Title Info]...OK
+  Load [Option Info]...OK
+  Load [Select Info]...OK
+  Load [VS Screen]...OK
+  Load [Victory Screen]...OK
+  Load [Demo Mode]...OK
+  Load [Continue Screen]...OK
+  Load [Game Over Screen]...OK
+  Load [Win Screen]...OK
+  Load [Survival Results Screen]...OK
+  Load [Default Ending]...OK
+  Load [End Credits]...OK
+  Load TitleBG...VersusBG...VictoryBG...SelectBG...OptionBG...OK
+  Loading fight data
+    Opening fight data file data/HyperDBZ_Lifebar/fight.def...OK
+    Reading [Files]...OK
+    Loading fonts...OK
+    Load fight anim...OK
+    Reading [Lifebar]...[Turns Lifebar]...[Simul Lifebar]...[Powerbar]...
+    [Face]...[Simul Face]...[Turns Face]...
+    [Name]...[Simul Name]...[Turns Name]...
+    [Time]...[Combo]...[Round]...[WinIcon]...OK
+    Allocating explods...OK
+  Fight data loaded OK
+System loaded OK
+Initialize OK
+Set up graphics...timer...OK
+Playing storyboard intro.def: scene
+attempting load and start...attempting load of data/intro2.mp3...hooking mixer callback...
+success!
+starting BGM...
+Storyboard playback finished OK
+Finished playing storyboard intro.def: scene
+Initializing character info...OK
+Initializing select screen...finding characters...
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/training/training.def
+
+  Error reading character file: chars/training/training_small.def
+
+  Error reading character file: chars/training/training_medium.def
+
+  Error reading character file: chars/training/training_large.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+
+  Error reading character file: chars/EMPTY/EMPTY.def
+OK
+
+Entering main loop
+Playing storyboard press_start.def: scene
+attempting load and start...attempting load of data/press_start.mp3...success!
+starting BGM...
+Storyboard playback canceled 400:0 kD p0
+Finished playing storyboard press_start.def: scene
+Entering character select.
+attempting load and start...attempting load of data/menu.mp3...success!
+starting BGM...
+attempting load and start...attempting load of data/select.mp3...success!
+starting BGM...
+Loading character chars/GohanZ2/GohanZ2Alternate.def...
+  Loading info...OK
+  Loading cmd command set files\gohan.mfg...OK
+  Loading cns states\constants.cns...OK
+  Loading cns states\helpers.cns...OK
+  Loading cns states\state-2-3.cns...OK
+  Loading cns states\override.cns...OK
+  Loading cns config-alt.txt...OK
+  Loading cns states\normals.cns...OK
+  Loading cns states\specials.cns...OK
+  Loading cns states\supers.cns...OK
+  Loading cmd state entry files\gohan.mfg...OK
+  Loading common states common1.cns...OK
+  Unloading command names...OK
+  Loading sff files\gohanCHAMAT.sff...OK
+  Loading anim files\gohan.air...OK
+  Loading snd files\gohan.snd...attempting load and start...attempting load of data/vs.mp3...success!
+starting BGM...
+OK
+  Loading pals...OK
+  32772 expressions (11390 on trigger lines)
+Character GohanZ2Alternate.def loaded OK
+Loading character chars/PilafMachineZ2/PilafMachineZ2.def...
+  Loading info...OK
+  Loading cmd command set files/command.mfg...OK
+  Loading cns states/constants.cns...OK
+  Loading cns states/helpers.cns...OK
+  Loading cns states/state-2-3.cns...OK
+  Loading cns states/override.cns...OK
+  Loading cns states/normals.cns...OK
+  Loading cns states/specials.cns...OK
+  Loading cns states/supers.cns...OK
+  Loading cns config.txt...OK
+  Loading cmd state entry files/command.mfg...OK
+  Loading common states common1.cns...OK
+  Unloading command names...OK
+  Loading sff files/sprite.sff...OK
+  Loading anim files/animation.air...OK
+  Loading snd files/sound.snd...ERROR loading wave file 680, 1: Unsupported sample size (only 8-bit or 16-bit supported)
+ERROR loading wave file 680, 2: Unsupported sample size (only 8-bit or 16-bit supported)
+ERROR loading wave file 680, 3: Unsupported sample size (only 8-bit or 16-bit supported)
+ERROR loading wave file 1501, 0: Unsupported sample size (only 8-bit or 16-bit supported)
+ERROR loading wave file 1501, 1: Unsupported sample size (only 8-bit or 16-bit supported)
+SND file loaded with errors: files/sound.snd
+OK
+  Loading pals...OK
+  30456 expressions (11330 on trigger lines)
+Character PilafMachineZ2.def loaded OK
+Unloading system background data...sprite data...OK
+Initializing stage...
+  Loading BG...attempting load of sound/chars/pilaf.mp3...success!
+OK
+  Allocating helpers...OK
+Stage initialized OK
+Start of game loop
+prebuffering BGM...
+Loading character chars/KrillinZ2/KrillinZ2.def...
+  Loading info...OK
+  Loading cmd command set files/command.mfg...OK
+  Loading cns states/constants.cns...OK
+  Loading cns states/helpers.cns...OK
+  Loading cns states/state-2-3.cns...OK
+  Loading cns states/override.cns...OK
+  Loading cns states/normals.cns...OK
+  Loading cns states/specials.cns...OK
+  Loading cns states/supers.cns...OK
+  Loading cns config.txt...OK
+  Loading cmd state entry files/command.mfg...OK
+  Loading common states common1.cns...OK
+  Unloading command names...OK
+  Loading sff files/sprite.sff...OK
+  Loading anim files/animation.air...OK
+  Loading snd files/sound.snd...OK
+  Loading pals...OK
+  30082 expressions (10521 on trigger lines)
+Character KrillinZ2.def loaded OK
+End of game loop
+Total time: 278.60s
+Total frames: 16051 	Skipped frames: 0
+Avg game rate: 57.61
+Avg frame rate: 57.61
+
+Reloading system sprite data...Reloading system background data...OK
+attempting load and start...attempting load of data/victory.mp3...success!
+starting BGM...
+attempting load and start...attempting load of data/vs.mp3...success!
+starting BGM...
+Unloading system background data...sprite data...OK
+Initializing stage...
+  Loading BG...attempting load of sound/stages/hdbz_kamehouse.mp3...success!
+OK
+  Allocating helpers...OK
+Stage initialized OK
+Start of game loop
+prebuffering BGM...
+End of game loop
+Total time: 4.04s
+Total frames: 243 	Skipped frames: 0
+Avg game rate: 60.15
+Avg frame rate: 60.15
+
+Reloading system sprite data...Reloading system background data...OK
+Entering character select.
+attempting load and start...attempting load of data/menu.mp3...success!
+starting BGM...
+Returned from main loop
+Deinitializing...
+Frames      : 16294
+Time elapsed: 356.820 sec
+ticks: 35682, tps: 100, start 121, end 35803
+
+Clearing player cache...OK
+Freeing character info...OK
+Freeing select screen...OK
+Freeing fight data...OK
+Freeing system data...OK
+Freeing game variables...OK
+Deinitializing input...pad...keyboard...OK
+Removing callbacks...OK
+Deintializing timer...OK
+Deinitializing graphics...OK
+Deinitializing BGM...Cleaning up mixer callback...unhooking mixer callback...
+
+Mixer callback was entered 7684 times
+Mixer callback timing stats (last 7684 calls):
+	17.000000 median, 21.739459 avg, 30.212924 sample std. dev.
+Top 10 slowest times:	911 (1), 879 (1), 750 (1), 699 (1), 627 (1), 419 (1), 417 (1), 332 (1), 328 (1), 325 (1)
+Top 10 fastest times:	5 (1), 6 (22), 7 (75), 8 (131), 9 (158), 10 (155), 11 (166), 12 (306), 13 (510), 14 (654)
+OK
+Deinitializing sound...OK
+Successful program termination.
+
+Log file successfully closed.
